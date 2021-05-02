@@ -1,4 +1,38 @@
-img {
+
+/* tag selector */
+body {
+            
+    color: grey;
+    width: 80%;
+    margin: auto;
+}
+img.banner {
     width: 100%;
-    height: 60vh;
+    height: 520px;
+
+}
+/* id selector*/
+#logo {
+    color: gray;
+    text-decoration: none;
+}
+.menu {
+    list-style-type: none;
+    height: auto;
+}
+.menu>li>a {
+    text-decoration: none;
+
+}
+a:hover {
+    color: darkgreen;
+    text-transform: uppercase;
+}
+/* class selector */
+nav{
+    background-color:black;
+    
+}
+div.feed >div >h4{
+    color: aqua;
 }
